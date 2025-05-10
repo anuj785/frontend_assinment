@@ -1,0 +1,222 @@
+.screen {
+    width: 98.9vw;
+    padding: 1px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo-img1 {
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.btn {
+    margin: 20px;
+}
+
+.logo-img2 {
+    height: 80px;
+    width: 600px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.nav p {
+    margin: 0;
+    padding: 0;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    /* You can change direction and colors */
+    height: 170px;
+    color: white;
+}
+
+.hero-section {
+    background-image: url('../assets/bgc.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* or suitable contrasting color */
+    text-align: center;
+}
+
+.custom-image-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.custom-quote-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.home {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+.intro h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #555;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.poolHotelText {
+    margin: 60px;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 30px;
+}
+
+.poolImageWrapper {
+    position: relative;
+}
+
+.poolImg {
+    height: 70vh;
+    width: 80vw;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.poolOverImg {
+    position: absolute;
+    height: 50vh;
+    width: 30vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+
+.II{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;    
+margin: 10px;    
+
+}
+.RoomCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+    margin: 10px 10px 10px 10px;
+}
+.RoomCards img{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 10px;
+}
+
+
+.accomodation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.accomodationText{
+    border: 1px solid black;
+    margin: 10px;
+    padding:10px;
+    border-radius: 15px;
+}
+.StayPackages{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:35px;
+}
+
+.III{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin: 10px;
+}
+
+.IV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    margin: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0 10px;
+    gap: 0;
+    background-color: #3b5f9e;
+    color: aliceblue;
+}
+.footer1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer2{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer3{
+    flex-direction: column;
+    background-color: #2a5298;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.footer3 img{
+    height: 40px;
+    width: 40px;    
+}
