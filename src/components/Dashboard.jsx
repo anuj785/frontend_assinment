@@ -1,5 +1,5 @@
 import "./Dashboard.css";
-import logo1 from "../assets/logo1.png";
+import logo1 from "../assets/Logo1.png";
 // import logo2 from "../assets/logo2.png";
 import bgImage from "../assets/bgc.png";
 import I from "../assets/I.png";
