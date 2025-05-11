@@ -3,7 +3,7 @@ import logo1 from "../assets/Logo1.png";
 // import logo2 from "../assets/logo2.png";
 import bgImage from "../assets/bgc.png";
 import I from "../assets/I.png";
-import II from "../assetS/Group 444.png";
+import II from "../assets/Group 444.png";
 import III from "../assets/Group 445.png";
 import IV from "../assets/Group 446.png";
 import V from "../assets/v.png";
